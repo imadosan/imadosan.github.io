@@ -199,7 +199,7 @@ input[name="r"]{
 /* Contact page CSS */
 .contact-section h1{
   text-align: center;
-  color: #F0F0F0;
+  color: #F0F0F0; 
 }
 
 .border{
@@ -251,4 +251,8 @@ textarea.contact-form-text{
 
 .contact-form-btn:hover{
   background: #2980b9;
+}
+.contact-info {
+  font-size: 14px;
+  color: #F0F0F0;
 }

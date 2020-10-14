@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: #bbb;
+  background-color: #fff;
 }
 
 /* Menu */
@@ -32,13 +32,12 @@ a {
 }
 
 .header ul a:hover {
-  background-color: #5aa8dc;
+  color: #5aa8dc;
 }
 
 .header .logo {
   float: left;
   display: block;
-  font-size: 2em;
   padding: 10px 20px;
 }
 
@@ -122,5 +121,60 @@ a {
   }
   .header .menu-icon {
     display: none;
+  }
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.main-content h2 {
+  padding: 30px 30px 0px;
+  font-size: 50px;
+  color: #5aa8dc;
+  line-height: 44px;
+}
+
+.main-content p {
+  padding: 0px 30px 10px;
+  font-size: 16px;
+  color: #000;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600px;
+    margin: auto;
+  }
+
+  .main-content h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .main-content p {
+    padding: 20px 0px 0px;
+  }
+
+  .products h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .products p {
+    padding: 20px 0px 0px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+  }
+
+  .main-content h2 {
+    padding: 10px 0px 0px;
   }
 }

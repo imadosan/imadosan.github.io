@@ -108,24 +108,6 @@ a {
   transform: rotate(45deg);
   top: 0;
 }
-
-/* Media Qurey for nav bar */
-@media (min-width: 48em) {
-  .header li {
-    float: left;
-  }
-  .header li a {
-    padding: 20px 30px;
-  }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
-  }
-  .header .menu-icon {
-    display: none;
-  }
-}
 /* Main content */
 .wrapper {
   width: 100%;
@@ -162,17 +144,16 @@ a {
   width: 100%;
 }
 
-.contact-info {
-  align-items: center;
+.mail-icon{
+  height: 50px;
+  padding: 0px 30px 10px;
 }
 
-.mail-icon {
-  height: 60px;
+.phone-icon{
+  height: 50px;
+  padding: 0px 30px 10px;
 }
 
-.phone-icon {
-  height: 60px;
-}
 
 /* footer */
 .footer {
@@ -180,7 +161,7 @@ a {
   color: #fff;
   height: 300px;
   position: relative;
-  visibility: hidden;
+  display: none;
 }
 
 .footer .footer-content {
@@ -196,18 +177,6 @@ a {
 .footer .footer-content h1,
 h2 {
   color: white;
-}
-
-.name {
-  visibility: hidden;
-}
-
-.links {
-  visibility: hidden;
-}
-
-.contact {
-  align-items: center;
 }
 
 .footer .footer-content .links ul a {
@@ -257,6 +226,20 @@ h2 {
 /* responsive layout */
 
 @media only screen and (min-width: 768px) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
   .wrapper {
     width: 600px;
     margin: auto;
@@ -278,13 +261,10 @@ h2 {
     padding: 20px 0px 0px;
   }
   .footer {
-    visibility: visible;
+    display: block;
   }
-  .name {
-    visibility: visible;
-  }
-  .links {
-    visibility: visible;
+  .fa {
+    width: 40px;
   }
 }
 
@@ -310,12 +290,5 @@ h2 {
     width: 50%;
   }
   .footer {
-    visibility: visible;
-  }
-  .name {
-    visibility: visible;
-  }
-  .links {
-    visibility: visible;
-  }
+    display: block;
 }

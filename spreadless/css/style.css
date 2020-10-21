@@ -144,16 +144,15 @@ a {
   width: 100%;
 }
 
-.mail-icon{
+.mail-icon {
   height: 50px;
   padding: 0px 30px 10px;
 }
 
-.phone-icon{
+.phone-icon {
   height: 50px;
   padding: 0px 30px 10px;
 }
-
 
 /* footer */
 .footer {
@@ -177,6 +176,11 @@ a {
 .footer .footer-content h1,
 h2 {
   color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer .footer-content span {
+  color: #5aa8dc;
 }
 
 .footer .footer-content .links ul a {
@@ -196,7 +200,6 @@ h2 {
 
 .footer .footer-section h2 {
   color: #5aa8dc;
-  font-family: "Montserrat", sans-serif;
 }
 
 .fa {
@@ -266,6 +269,18 @@ h2 {
   .fa {
     width: 40px;
   }
+  .ligthviewBlack {
+    width: 50%;
+  }
+
+  .lightviewWhite {
+    width: 50%;
+    float: right;
+  }
+
+  .lightviewSpecs {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -291,4 +306,5 @@ h2 {
   }
   .footer {
     display: block;
+  }
 }

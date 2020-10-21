@@ -1,30 +1,92 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html>
+<head>
     <meta charset="utf-8">
-    <title>Spreadless</title>
-    <link rel="stylesheet" href="css/spreadless.css">
-    <link rel="shortcut icon" type="image/png" href="images/small-logo.png">
-    <meta name="viewport" content="width=device-width,initail-scale=1">
-  </head>
-  <body>
-    <div class="container">
-      <div class="navbar">
-        <img src="images/logo.png" class="logo">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="content">
-        <h1>Spreadless</h1>
-        <p>At Spreadless we do our best to develop products that helps you in a day to <br> day life. We want to make mass spread of infection a thing og the past, and<br> with your help, we can. With an innovative mindset we struggle to make the <br> best products for you as private person. We specialize in infection control and <br> technology, and by combining these two produce products that will improve <br> your life.
-      </div>
-      <img src="images/lightview.png" class="feature-img">
+    <title>Oblig3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navigation -->
+    <header class="header">
+        <a href="#Home" class="logo"><img src="images/Logo-White-Blue-04.png" alt="logo" height="37px"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#About us">About us</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </header>
+    <!-- /navigation -->
+    <br><br>
+    <!-- Main content-->
+    <div class="wrapper">
+        <article class="main-content">
+            <h2 id="Home">Welcome!</h2>
+            <p>At Spreadless we do our best to develop products that helps you in a day to day life. We want to make mass spread of infection a thing og the past, and with your help, we can. With an innovative mindset we struggle to make the  best products for you as private person. We specialize in infection control and technology, and by combining these two produce products that will improve your life.</p>
+            <h2 id="Products">Products</h2>
+            <p>Our product Lightview, is designed to help people to become aware of microorganisms, and make them wash their hands properly everytime.</p>
+            <img class="ligthviewBlack" src="images/2.png" alt="Lightview Black">
+            <img class="lightviewWhite" src="images/1.png" alt="Lightview White">
+            <img class="lightviewSpecs" src="images/3.png" alt="Lightview specs">
+            <h2 id="About us">About us</h2>
+            <p>Spreadless is an international company that focuses on products within infection control for clinical and general use, and on developing new devices that prevent the spread of infectious substances. We aim to change the way people think about infection control through our revolutionary products. We want to make it easy for people to make the right choices when it comes to complying with infection control.</p>
+            <h2 id="Contact">Contact</h2>
+                <svg class="mail-icon" id="e-mail" data-name="e-mail" viewBox="0 0 512 375"><path d="M0,65V440H512V65Zm453.9,35.4L256,277.6,58.1,100.4ZM482,388.8v15.8H30V119.7L256,322.1,482,119.7Z" transform="translate(0 -65)" style="fill:#5aa8dc"/></svg>
+                <div class="mail">
+                    <p>Email:</p>
+                    <p>contact@spreadless.com</p>
+                </div>
+                <svg class="phone-icon" id="mobil" data-name="mobil" viewBox="0 0 314.5 512"><defs><style>.cls-1{fill:#5aa8dc;}</style></defs><path class="cls-1" d="M348.5,0H159.8C125.1,0,96.9,26.9,96.9,60V452c0,33.1,28.2,60,62.9,60H348.5c34.7,0,62.9-26.9,62.9-60V60C411.4,26.9,383.2,0,348.5,0Zm31.4,362v90c0,16.5-14.2,30-31.5,30H159.8c-17.3,0-31.5-13.5-31.5-30V60c0-16.5,14.2-30,31.5-30H348.5C365.8,30,380,43.5,380,60V362Z" transform="translate(-96.9 0)"/><rect class="cls-1" x="127.2" y="407.1" width="60" height="30"/></svg>
+                <div class="phone">
+                    <p>Phone:</p>
+                    <p>+47 912 99 787</p>
+                </div>
     </div>
-  </body>
+    <!-- /Main content -->
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section name">
+                <h1 class="logo-text">spread<span>less</span></h1>
+            </div>
+            <div class="footer-section links">
+                <h2>Useful Links</h2>
+            <ul>
+                <a href="#Home"><li>Home</li></a>
+                <a href="#Products"><li>Products</li></a>
+                <a href="#About us"><li>About us</li></a>
+                <a href="#Contact"><li>Contact</li></a>
+            </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact us</h2>
+                <p>
+                    Oslo
+                    <br>
+                    Norway
+                    <br>
+                    Phone: +47 912 99 787
+                    <br>
+                    Email: contact@spreadless.com
+                </p>
+                <div class="social-media">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2020 spreadless.com 
+        </div>
+    </div>
+    <!-- /Footer -->
+</body>
 </html>

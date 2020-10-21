@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -14,7 +18,7 @@ a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 3;
 }
@@ -144,6 +148,10 @@ a {
   width: 100%;
 }
 
+.team-image {
+  width: 100%;
+}
+
 .mail-icon {
   height: 50px;
   padding: 0px 30px 10px;
@@ -229,6 +237,9 @@ h2 {
 /* responsive layout */
 
 @media only screen and (min-width: 768px) {
+  .header {
+    position: absolute;
+  }
   .header li {
     float: left;
   }
@@ -281,9 +292,15 @@ h2 {
   .lightviewSpecs {
     width: 50%;
   }
+  .team-image {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
+  .header {
+    position: absolute;
+  }
   .wrapper {
     width: 1000px;
   }
@@ -306,5 +323,8 @@ h2 {
   }
   .footer {
     display: block;
+  }
+  .team-image {
+    width: 100%;
   }
 }

@@ -112,6 +112,8 @@ a {
   transform: rotate(45deg);
   top: 0;
 }
+/* /Menu */
+
 /* Main content */
 .wrapper {
   width: 100%;
@@ -136,15 +138,19 @@ a {
   line-height: 24px;
 }
 
-.ligthviewBlack {
+.lvWhite {
   width: 100%;
 }
 
-.lightviewWhite {
+.lvBack {
   width: 100%;
 }
 
-.lightviewSpecs {
+.lvBlack {
+  width: 100%;
+}
+
+.lvSpecs {
   width: 100%;
 }
 
@@ -152,15 +158,60 @@ a {
   width: 100%;
 }
 
-.mail-icon {
-  height: 50px;
-  padding: 0px 30px 10px;
+.mats {
+  width: 33%;
 }
 
-.phone-icon {
-  height: 50px;
-  padding: 0px 30px 10px;
+.glenn {
+  width: 33%;
 }
+
+.jan {
+  width: 33%;
+}
+
+.alexander {
+  width: 33%;
+  margin-left: 17%;
+}
+
+.imad {
+  width: 33%;
+}
+
+.contact-section {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+}
+
+.contact-section .contact-type {
+  margin: 5px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.contact-section .contact-type .contact-header {
+  color: #515150;
+  font-size: 14px;
+  margin: 12px 0px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-section .contact-type .icons {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* /Main content */
 
 /* footer */
 .footer {
@@ -208,6 +259,7 @@ h2 {
 
 .footer .footer-section h2 {
   color: #5aa8dc;
+  text-transform: uppercase;
 }
 
 .fa {
@@ -233,27 +285,32 @@ h2 {
   left: 0px;
   padding-top: 10px;
 }
+/* /footer */
 
 /* responsive layout */
-
 @media only screen and (min-width: 768px) {
   .header {
     position: absolute;
   }
+
   .header li {
     float: left;
   }
+
   .header li a {
     padding: 20px 30px;
   }
+
   .header .menu {
     clear: none;
     float: right;
     max-height: none;
   }
+
   .header .menu-icon {
     display: none;
   }
+
   .wrapper {
     width: 600px;
     margin: auto;
@@ -274,24 +331,35 @@ h2 {
   .products p {
     padding: 20px 0px 0px;
   }
-  .footer {
-    display: block;
-  }
-  .fa {
-    width: 40px;
-  }
-  .ligthviewBlack {
-    width: 50%;
+
+  .lvWhite {
+    width: 49.5%;
+    margin-bottom: 1%;
   }
 
-  .lightviewWhite {
-    width: 50%;
+  .lvBack {
+    width: 49.5%;
+    float: right;
+    margin-bottom: 1%;
+  }
+
+  .lvBlack {
+    width: 49.5%;
+  }
+
+  .lvSpecs {
+    width: 49.5%;
     float: right;
   }
 
-  .lightviewSpecs {
-    width: 50%;
+  .footer {
+    display: block;
   }
+
+  .fa {
+    width: 40px;
+  }
+
   .team-image {
     width: 100%;
   }
@@ -301,6 +369,7 @@ h2 {
   .header {
     position: absolute;
   }
+
   .wrapper {
     width: 1000px;
   }
@@ -309,21 +378,30 @@ h2 {
     padding: 10px 0px 0px;
   }
 
-  .ligthviewBlack {
-    width: 50%;
+  .lvWhite {
+    width: 49.5%;
+    margin-bottom: 1%;
   }
 
-  .lightviewWhite {
-    width: 50%;
+  .lvBack {
+    width: 49.5%;
+    float: right;
+    margin-bottom: 1%;
+  }
+
+  .lvBlack {
+    width: 49.5%;
+  }
+
+  .lvSpecs {
+    width: 49.5%;
     float: right;
   }
 
-  .lightviewSpecs {
-    width: 50%;
-  }
   .footer {
     display: block;
   }
+
   .team-image {
     width: 100%;
   }

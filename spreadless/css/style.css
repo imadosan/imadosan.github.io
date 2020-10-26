@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 /* Menu */
@@ -158,29 +159,31 @@ a {
   width: 100%;
 }
 
-.mats {
+.team-members {
+  width: 100%;
+}
+.Mats {
   width: 33%;
 }
 
-.glenn {
+.Glenn {
   width: 33%;
 }
 
-.jan {
+.Jan {
   width: 33%;
 }
 
-.alexander {
+.Alexander {
   width: 33%;
-  margin-left: 17%;
 }
 
-.imad {
+.Imad {
   width: 33%;
 }
 
 .contact-section {
-  display: flex;
+  display: block;
   text-align: center;
   width: auto;
   justify-content: center;
@@ -190,7 +193,7 @@ a {
   margin: 5px;
   margin-bottom: 50px;
   margin-top: 40px;
-  width: 50%;
+  width: 100%;
   padding: 20px;
   color: #fff;
   position: relative;
@@ -210,7 +213,6 @@ a {
   left: 50%;
   transform: translateX(-50%);
 }
-
 /* /Main content */
 
 /* footer */
@@ -363,6 +365,14 @@ h2 {
   .team-image {
     width: 100%;
   }
+
+  .contact-section {
+    display: flex;
+  }
+
+  .contact-section .contact-type {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -404,5 +414,13 @@ h2 {
 
   .team-image {
     width: 100%;
+  }
+
+  .contact-section {
+    display: flex;
+  }
+
+  .contact-section .contact-type {
+    width: 50%;
   }
 }

@@ -159,29 +159,31 @@ a {
   width: 100%;
 }
 
-.team-members {
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.box {
+  height: 526px;
+  color: #515150;
+  position: relative;
+}
+
+.box .user-image {
   width: 100%;
 }
-.Mats {
-  width: 33%;
+.box h3 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.Glenn {
-  width: 33%;
-}
-
-.Jan {
-  width: 33%;
-}
-
-.Alexander {
-  width: 33%;
-}
-
-.Imad {
-  width: 33%;
-}
-
 .contact-section {
   display: block;
   text-align: center;
@@ -354,16 +356,12 @@ h2 {
     float: right;
   }
 
-  .footer {
-    display: block;
-  }
-
-  .fa {
-    width: 40px;
-  }
-
   .team-image {
     width: 100%;
+  }
+
+  .box {
+    height: 318px;
   }
 
   .contact-section {
@@ -372,6 +370,14 @@ h2 {
 
   .contact-section .contact-type {
     width: 50%;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .fa {
+    width: 40px;
   }
 }
 
@@ -408,12 +414,12 @@ h2 {
     float: right;
   }
 
-  .footer {
-    display: block;
-  }
-
   .team-image {
     width: 100%;
+  }
+
+  .box {
+    height: 350px;
   }
 
   .contact-section {
@@ -422,5 +428,9 @@ h2 {
 
   .contact-section .contact-type {
     width: 50%;
+  }
+
+  .footer {
+    display: block;
   }
 }

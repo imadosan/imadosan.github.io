@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  background: #191919;
+}
+
+h1 {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 25px;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #51268c;
+}
+
+h2 {
+  padding: 50px 30px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #51268c;
+  line-height: 44px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact {
+  height: 65vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.box {
+  height: 250px;
+  color: #191919;
+  position: relative;
+}
+
+img {
+  height: 50px;
+  margin-top: 5%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #51268c;
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer {
+    display: block;
+  }
+}

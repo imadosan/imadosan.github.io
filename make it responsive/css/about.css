@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li,
+a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+  background: #191919;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 25px;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #51268c;
+}
+
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  margin-top: 2%;
+}
+
+.wrapper h1 {
+  font-family: "Allura", cursive;
+  font-size: 52px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #191919;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .team-member {
+  background: #51268c;
+  margin: 15px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #000;
+  position: relative;
+}
+
+.team .team-member h3 {
+  color: #fff;
+  font-size: 26px;
+  margin-top: 100px;
+}
+
+.team .team-member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .team-member p {
+  color: #fff;
+}
+
+.team .team-member .team-img {
+  width: 155px;
+  height: 150px;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team .team-member .team-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.footer {
+  display: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #51268c;
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .footer-bottom {
+    display: block;
+  }
+}

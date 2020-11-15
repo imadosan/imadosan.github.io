@@ -78,6 +78,40 @@ html {
   color: #00b8fc;
 }
 
+.img-info2 {
+  width: 100%;
+}
+
+.img-info2 h2 {
+  padding: 30px 30px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #00b8fc;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.img-info2 p {
+  padding: 0px 30px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+.img-info2 a {
+  text-decoration: none;
+  color: #111;
+}
+
+.img-info2 a:hover {
+  color: #00b8fc;
+}
+
+.ocean {
+  width: 100%;
+}
+
 .footer {
   /* display: none; */
   position: fixed;
@@ -104,11 +138,16 @@ html {
 
   .img-info p {
     padding: 20px 0px 0px;
+    font-size: 18px;
+    line-height: 26px;
   }
 
   .menu {
     display: block;
     padding: 20px 0px 0px;
+  }
+  .ocean {
+    width: 100%;
   }
 }
 
@@ -122,15 +161,33 @@ html {
     float: left;
   }
 
+  .img-info2 {
+    width: 50%;
+    float: left;
+  }
+
   .img-info h2 {
     padding: 20px 0px 0px 30px;
   }
 
   .img-info p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px 0px 0px 30px;
+  }
+
+  .img-info2 p {
+    font-size: 20px;
+    line-height: 26px;
     padding: 20px 0px 0px 30px;
   }
 
   .menu {
-    display: none;
+    display: block;
+    padding: 20px 0px 0px 30px;
+  }
+  .ocean {
+    width: 50%;
+    float: right;
   }
 }

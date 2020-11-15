@@ -68,6 +68,12 @@ html {
   line-height: 24px;
 }
 
+img {
+  padding-top: 40px;
+  margin-left: 30px;
+  width: 75%;
+}
+
 .footer-bottom {
   background: #00b8fc;
   color: #fff;
@@ -104,6 +110,8 @@ html {
   .menu {
     padding: 20px 0px 0px;
   }
+
+
 }
 
 @media only screen and (min-width: 1000px) {
@@ -131,4 +139,6 @@ html {
   .menu {
     padding: 20px 0px 0px 30px;
   }
+  
+  
 }

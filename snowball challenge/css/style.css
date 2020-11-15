@@ -68,19 +68,7 @@ html {
   color: #111;
   line-height: 24px;
 }
-
-img {
-  padding-top: 40px;
-  margin-left: 30px;
-  width: 50%;
-}
-
-.footer-bottom {
-  background: #00b8fc;
-  color: #fff;
-  height: 30px;
-
-.img-info2 a {
+.img-info a {
   text-decoration: none;
   color: #111;
 }
@@ -124,7 +112,6 @@ img {
 }
 
 .footer {
-  display: none; 
   position: fixed;
   left: 0;
   bottom: 0;
@@ -197,6 +184,7 @@ img {
     display: block;
     padding: 20px 0px 0px 30px;
   }
+
   .ocean {
     width: 50%;
     float: right;

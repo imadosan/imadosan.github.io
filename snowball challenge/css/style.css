@@ -28,6 +28,7 @@ html {
 }
 
 .menu {
+  display: block;
   padding: 30px 30px 20px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -68,6 +69,7 @@ html {
   line-height: 24px;
 }
 
+<<<<<<< HEAD
 img {
   padding-top: 40px;
   margin-left: 30px;
@@ -78,15 +80,29 @@ img {
   background: #00b8fc;
   color: #fff;
   height: 30px;
+=======
+.img-info a {
+  text-decoration: none;
+  color: #111;
+}
+
+.img-info a:hover {
+  color: #00b8fc;
+}
+
+.footer {
+  /* display: none; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+>>>>>>> 4f249c9d51306a581aa4c33805df57ef11fc6702
   width: 100%;
+  padding: 5px;
+  background-color: #00b8fc;
+  color: white;
   text-align: center;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  padding-top: 10px;
-  display: none;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px;
+  height: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -103,11 +119,8 @@ img {
     padding: 20px 0px 0px;
   }
 
-  .footer-bottom {
-    display: block;
-  }
-
   .menu {
+    display: block;
     padding: 20px 0px 0px;
   }
 
@@ -132,12 +145,8 @@ img {
     padding: 20px 0px 0px 30px;
   }
 
-  .footer-bottom {
-    display: block;
-  }
-
   .menu {
-    padding: 20px 0px 0px 30px;
+    display: none;
   }
   
   

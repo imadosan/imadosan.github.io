@@ -80,7 +80,7 @@ img {
   color: #fff;
   height: 30px;
 
-.img-info a {
+.img-info2 a {
   text-decoration: none;
   color: #111;
 }
@@ -124,7 +124,7 @@ img {
 }
 
 .footer {
-  /* display: none; */
+  display: none; 
   position: fixed;
   left: 0;
   bottom: 0;
@@ -157,14 +157,9 @@ img {
     display: block;
     padding: 20px 0px 0px;
   }
-<<<<<<< HEAD
   .ocean {
     width: 100%;
   }
-=======
-
-
->>>>>>> 8088533e1db9bf91c23cc09ed8aa5a030c6d0c58
 }
 
 @media only screen and (min-width: 1000px) {
@@ -206,6 +201,4 @@ img {
     width: 50%;
     float: right;
   }
-  
-  
 }

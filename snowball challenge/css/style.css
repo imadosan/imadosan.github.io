@@ -69,6 +69,17 @@ html {
   line-height: 24px;
 }
 
+img {
+  padding-top: 40px;
+  margin-left: 30px;
+  width: 50%;
+}
+
+.footer-bottom {
+  background: #00b8fc;
+  color: #fff;
+  height: 30px;
+
 .img-info a {
   text-decoration: none;
   color: #111;
@@ -146,9 +157,14 @@ html {
     display: block;
     padding: 20px 0px 0px;
   }
+<<<<<<< HEAD
   .ocean {
     width: 100%;
   }
+=======
+
+
+>>>>>>> 8088533e1db9bf91c23cc09ed8aa5a030c6d0c58
 }
 
 @media only screen and (min-width: 1000px) {
@@ -190,4 +206,6 @@ html {
     width: 50%;
     float: right;
   }
+  
+  
 }

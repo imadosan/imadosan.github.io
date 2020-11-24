@@ -1,0 +1,296 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  color: #fff;
+}
+
+.header {
+  background-color: #515150;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #515150;
+}
+
+.header ul a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.header ul a:hover {
+  color: #5aa8dc;
+}
+
+.header .logo {
+  float: left;
+  display: block;
+  padding: 10px 20px;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.header .menu-icon {
+  padding: 28px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+  background: #fff;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background 0.2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  top: 5px;
+}
+
+.header .menu-icon .nav-icon:after {
+  background: #fff;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background-color: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+  text-align: center;
+  padding: 50px 30px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #5aa8dc;
+  line-height: 44px;
+  text-transform: uppercase;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #111;
+  line-height: 26px;
+}
+
+.team-image {
+  width: 100%;
+}
+
+.container {
+  padding: 50px 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.card-column {
+  width: 100%;
+  background: #fff;
+  padding: 10px;
+  position: relative;
+}
+
+.card-inner {
+  text-align: center;
+  padding: 24px 12px;
+  box-shadow: 0px 1px 16px #ccc;
+}
+
+.card-inner h3 {
+  font-size: 24px;
+  margin: 0;
+  margin-top: 24px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-inner span {
+  font-size: 14px;
+  transform: translateY(10px);
+  color: #515150;
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #5aa8dc;
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    position: absolute;
+  }
+
+  .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 30px;
+  }
+
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .img-info h2 {
+    padding: 50px 0px 0px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .team-image {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .card-column {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .header {
+    position: absolute;
+  }
+
+  .wrapper {
+    width: 1000px;
+  }
+
+  .img-info {
+    width: 100%;
+    float: left;
+  }
+
+  .img-info h2 {
+    padding: 50px 0px 0px 30px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px 30px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .team-image {
+    width: 100%;
+  }
+
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .card-column {
+    width: 31%;
+    margin: 0 auto;
+  }
+
+  .card-column:hover {
+    transform: scale(1.07);
+    transition: 0.2s ease-out;
+  }
+}

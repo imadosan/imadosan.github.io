@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/background.png);
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #59981a;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: rgba(89, 152, 26, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(89, 152, 26, 0.8);
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #59981a;
+  line-height: 44px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: Helvetica Neue;
+  font-size: 16px;
+  color: #111;
+  line-height: 26px;
+}
+
+.animal {
+  width: 100%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #59981a;
+  color: white;
+  text-align: center;
+  font-family: Helvetica Neue;
+  height: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px;
+  }
+  .animal {
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 1000px;
+  }
+
+  .img-info {
+    width: 50%;
+    float: left;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px 30px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 0px 30px;
+  }
+  .animal {
+    padding-top: 20px;
+    width: 32%;
+    float: right;
+  }
+}

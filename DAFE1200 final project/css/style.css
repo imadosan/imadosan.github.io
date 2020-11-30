@@ -84,12 +84,21 @@ button:hover {
   color: #59981a;
   line-height: 44px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.img-info h3 {
+  padding: 30px 30px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #59981a;
+  line-height: 26px;
 }
 
 .img-info p {
   padding: 0px 30px 20px;
   font-family: Helvetica Neue;
-  font-size: 16px;
+  font-size: 18px;
   color: #111;
   line-height: 26px;
 }

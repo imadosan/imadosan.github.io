@@ -60,7 +60,8 @@ header {
 }
 
 .login-btn:hover {
-  background-color: rgba(89, 152, 26, 0.8);
+  background-color: #ecf87f;
+  color: #000;
 }
 
 .adopt-main-btn {
@@ -76,7 +77,8 @@ header {
 }
 
 .adopt-main-btn:hover {
-  background-color: rgba(89, 152, 26, 0.8);
+  background-color: #ecf87f;
+  color: #000;
 }
 
 .wrapper {

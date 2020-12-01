@@ -68,7 +68,8 @@ header {
 }
 
 .login-btn:hover {
-  background-color: rgba(89, 152, 26, 0.8);
+  background-color: #ecf87f;
+  color: #000;
 }
 
 .btn1 {
@@ -83,7 +84,8 @@ header {
 }
 
 .btn1:hover {
-  background-color: rgba(89, 152, 26, 0.8);
+  background-color: #ecf87f;
+  color: #000;
 }
 
 .wrapper {

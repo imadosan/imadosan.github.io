@@ -49,21 +49,6 @@ header {
   font-size: 20px;
 }
 
-.login-btn {
-  outline: none;
-  padding: 9px 25px;
-  background-color: rgba(89, 152, 26, 1);
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-}
-
-.login-btn:hover {
-  background-color: #ecf87f;
-  color: #000;
-}
-
 .adopt-main-btn {
   outline: none;
   padding: 9px 25px;
